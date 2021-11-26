@@ -1,0 +1,87 @@
+
+.images{
+    width: 300px;
+    height: 150px;
+    object-fit: contain;
+}
+button{
+    padding: 6px;    
+}
+#myinput{
+
+    width: 150px;
+    padding: 7px;
+    border: 1px solid  black;
+    background: transparent;
+    font-size: 15px;
+    font-weight: 600;
+
+
+
+}
+.btnss{
+    width: 30px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.btnss:hover{
+    cursor: pointer;
+}
+
+.signup{
+ 
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.signup form input{
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid blue;
+}
+.signup button{
+    font-weight: 700;
+    font-size: 15px;
+    width: 10%;
+    background: transparent;
+    border-radius: 20px;
+    border: 2px solid brown;
+    outline: none;
+}
+
+.signup form input:focus{
+    border: none;
+    border-bottom: 2px solid blue;
+    outline: none;
+
+
+}
+
+
+.inp{
+    display: block;
+    border: 2px solid black;
+    padding: 4px;
+    margin: 10px;
+}
+
+
+.add{
+    
+}
+table{
+    text-align: center;
+    margin: 10px;
+    width: 40%;
+}
+.table button{
+    margin: 3px;
+    border-radius: 20px;
+    border: 2px solid brown;
+    font-weight: bold;
+    font-size: 15px;
+    width: 80px;
+    
+}

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <!-- Questiion no:1 -->
+    <a onclick="clickme()" href="javascript:void(0)"> Click</a>
+
+    <!-- Questiion no:2 -->
+
+    <div class="img">
+
+        <img src="./images/ihpne 7.jpg" onclick="iphoneImages()" class="images" alt="">
+        <h5>iphone 7</h5>
+        <img src="./images/iphone 10.jpg" onclick="iphoneImages()" class="images" alt="">
+        <h5>iphone 10</h5>
+        <img src="./images/iphone.png" onclick="iphoneImages()" class="images" alt="">
+        <h5>iphone 13</h5>
+        <img src="./images/iphone11.jpg" onclick="iphoneImages()" class="images" alt="">
+        <h5>iphone 11</h5>
+    </div>
+
+    <!-- Questiion no:3 -->
+
+    <div class="record">
+
+        <table>
+
+            <tr>
+                <th>Index</th>
+                <th>Namee</th>
+                <th>Class</th>
+            </tr>
+
+            <tr id="tr1">
+                <td>0</td>
+                <td>jhone</td>
+                <td>10</td>
+                <td> <button onclick="dlt()">Delete</button></td>
+            </tr>
+            <tr id="tr2">
+                <td>1</td>
+                <td>Deo</td>
+                <td>19</td>
+                <td> <button onclick="dlt2()">Delete</button></td>
+            </tr>
+            <tr id="tr3">
+                <td>2</td>
+                <td>Mark</td>
+                <td>10</td>
+                <td onclick="dlt3() "> <button>Delete</button></td>
+            </tr>
+            <tr id="tr4">
+                <td>3</td>
+                <td>james</td>
+                <td>8</td>
+                <td> <button onclick="dlt4()">Delete</button></td>
+            </tr>
+        </table>
+
+
+    </div>
+
+
+    <!-- Questiion no:4 -->
+
+    <div class="cat">
+        <img src="./images/cat.jpg" id="img1" onmouseout=" reverseImage()" width="300px" onmouseover="changeImage()"
+            alt="">
+    </div>
+
+    <!-- Questiion no:5 -->
+
+
+    <div class="counter">
+
+        <h1>Counter</h1>
+        <button class="btnss" onclick="dec()"> -</button>
+        <input type="text" id='myinput' value="0">
+        <button class="btnss" onclick="counter()">+</button>
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Questiion no:6 -->
+
+
+    <div class="details">
+
+        <p id="det">Coustumer:Name = Uzma <br> Product: Laptop <br> Prize:20000 <br>Reveiw: <a id="a1"
+                href="javascript:void(0);" onclick="see()">See More</a> </p>
+
+    </div>
+
+    <!-- Questiion no:7 -->
+
+    <div class="signup">
+        <form action="">
+
+            <input id="email" name="email" type="email" placeholder="Enter Email ">
+            <input id="pass" type="password" placeholder="Enter password">
+            <button onclick="data()">login</button>
+
+        </form>
+    </div>
+
+
+
+    <h1>Student details</h1>
+
+
+
+
+
+    <div class="table">
+
+
+        <table id="table1" border="1px">
+
+
+            <input id="fname" class="inp" type="text" placeholder=" Enter First Name" name="firstname" id="">
+            <input id="lname" class="inp" type="text" placeholder=" Enter last Name" name="lastname" id="">
+            <input id="class" class="inp" type="text" placeholder=" Enter Class" name="class" id="">
+            <button class="add" onclick="studentDetails()"> add</button>
+            <button id="dltbtn" class="add" onclick="deleteed() "> Delete</button>
+            <button class="add" onclick=""> Edit</button>
+ 
+
+            <tr>
+
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Class</th>
+
+            </tr>
+
+        </table>
+
+    </div>
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+<script src="app.js"></script>
+
+</html>
